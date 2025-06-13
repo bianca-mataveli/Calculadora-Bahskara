@@ -6,18 +6,18 @@
 
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #fafafa;
+    background-color: #f9f9f9; /* Cor de fundo mais suave */
     color: #333;
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 20px;
     min-height: 100vh;
-    background: linear-gradient(135deg, #f3f4f6 0%, #e0e0e0 100%);
+    background: linear-gradient(135deg, #f3f4f6 0%, #e8e8e8 100%);
 }
 
 h1 {
-    color: #e63946; /* Vermelho suave */
+    color: #ff69b4; /* Rosa suave */
     text-align: center;
     margin-bottom: 20px;
     font-size: 2rem;
@@ -34,104 +34,10 @@ h2 {
 section {
     width: 100%;
     max-width: 500px;
-    background: white;
+    background: #fff; /* Branco para os cartões */
     padding: 25px;
     border-radius: 12px;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
     margin-bottom: 30px;
     transition: transform 0.3s ease-in-out;
-}
-
-section:hover {
-    transform: translateY(-5px);
-}
-
-input, button {
-    width: 100%;
-    padding: 14px;
-    margin: 12px 0;
-    border-radius: 8px;
-    border: 1px solid #ddd;
-    font-size: 16px;
-    transition: border-color 0.3s ease;
-}
-
-input:focus, button:focus {
-    outline: none;
-    border-color: #e63946;
-}
-
-button {
-    background-color: #e63946; /* Vermelho suave */
-    color: white;
-    font-weight: bold;
-    border: none;
-    cursor: pointer;
-    transition: background-color 0.3s ease, transform 0.3s ease;
-}
-
-button:hover {
-    background-color: #d32f2f; /* Vermelho escuro */
-    transform: scale(1.05);
-}
-
-p {
-    font-size: 18px;
-    text-align: center;
-    margin-top: 10px;
-    color: #e63946;
-}
-
-span {
-    font-weight: bold;
-}
-
-.imagens {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 15px;
-}
-
-.imagens img {
-    width: 100%;
-    max-width: 400px;
-    height: auto;
-    border-radius: 12px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease;
-}
-
-.imagens img:hover {
-    transform: scale(1.05);
-}
-
-@media (max-width: 600px) {
-    section {
-        padding: 18px;
-    }
-
-    input, button {
-        font-size: 14px;
-    }
-
-    h1, h2 {
-        font-size: 1.75rem;
-    }
-
-    p {
-        font-size: 16px;
-    }
-}
-
-footer {
-    display: flex;
-    flex-direction: column;
-    margin-top: 30px;
-    color: #444;
-    font-size: 0.875rem;
-    text-align: center;
-    border-top: 1px solid #e63946;
-    padding-top: 10px;
-    width: 100%;
-}
+    background-color: #fce4ec; /* Rosa pastel no*
